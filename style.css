@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+
+}
+
+header {
+    background-color: #075E54;
+    padding: 1.4rem 0;
+}
+
+.logo {
+    font-weight: 300;
+    font-size: 1.5rem;
+
+}
+
+header .container {
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    margin: 0 1.2rem;
+}
+
+.icons-top {
+    color: white;
+
+}
+
+.fa-magnifying-glass {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.fa-ellipsis-vertical {
+    cursor: pointer;
+}
+
+nav {
+    text-transform: uppercase;
+    /* padding: 1em 0; */
+    color: white;
+}
+
+.nav-bar {
+    background-color: #075E54;
+    display: grid;
+    grid-template-columns: 16% 28% 28% 28%;
+    margin-bottom: 8px;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, .25) 0px 2px 5px -1px, rgba(0, 0, 0, .3) 0px 1px 3px -1px;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 3px solid white;
+    color: white;
+    
+
+}
+
+
+.chat {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.chat .photo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 18px;
+    cursor: pointer;
+}
+.fa{
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+}
+
+.username {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+.recent-chat{
+    color: gray;
+max-width: 200px;
+text-overflow: ellipsis;
+/* overflow: hidden; */
+white-space: nowrap;
+}
+.fa-comment{
+color: #4ed09c;
+position: fixed;
+bottom: 20px;
+right: 2.5rem;
+font-size: 3rem;
+
+
+z-index: 9999;
+
+
+}
+/* @media (min-width: 768px){
+    .fa-comment{
+        opacity: .5;
+        z-index: 2;
+        position: fixed;
+        bottom: 20px;
+    }
+} */
